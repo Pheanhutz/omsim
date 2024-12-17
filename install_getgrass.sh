@@ -8,6 +8,9 @@ echo "============================"
 read -p "Enter your User ID: " userId
 
 # Prompt for Proxies
+socks5://username2:password2@192.168.1.2:1080
+http://username3:password3@192.168.1.3:8080
+echo "Sample format: socks5://username:password@ip:port"
 echo "Enter your proxies (one per line). When finished, press Ctrl+D:"
 proxies=$(cat)
 
